@@ -30,8 +30,8 @@ spring:
         password: 'Pedepano10!'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://192.168.1.10/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
-        username: root
+        url: jdbc:mysql://192.168.1.20/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        username: hass
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
         generate-ddl: false
